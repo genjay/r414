@@ -1,11 +1,18 @@
 source 'https://rubygems.org'
 
 
+
+gem 'jquery-datatables-rails', '~> 3.3.0'
+
 gem 'devise'  # 登入驗証
 gem 'kaminari'  # 資料分頁
 gem 'activerecord-import'  # 多筆資料匯入用
 gem 'simple_form'  
 gem 'bootstrap-sass' 
+
+# sqlserver 2008 
+gem 'activerecord-sqlserver-adapter'
+gem 'tiny_tds'
 
 group :development do  
 	gem 'awesome_print'
